@@ -8,7 +8,7 @@ import numpy as np
 import tempfile
 import os
 import matplotlib.pyplot as plt
-from torchvision import modelss
+from torchvision import models
 import gdown
 
 # ====================================
