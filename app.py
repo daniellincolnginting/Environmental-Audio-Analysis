@@ -209,7 +209,7 @@ def load_model():
     m.fc = nn.Linear(m.fc.in_features, len(CLASS_NAMES))
     ckpt = torch.load(model_path, map_location="cpu")
     m.load_state_dict(ckpt["model_state_dict"])
-    m.eval()s
+    m.eval()
     return m
 
 model = load_model()
