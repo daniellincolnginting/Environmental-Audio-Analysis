@@ -132,7 +132,6 @@ li[aria-selected="true"] {
 }
 
 /* ---- KUNCI SIDEBAR (STATIS) ---- */
-[data-testid="collapsedControl"] { display: none !important; }
 [data-testid="stSidebar"] {
     min-width: 270px !important;
     max-width: 270px !important;
