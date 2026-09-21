@@ -132,9 +132,16 @@ li[aria-selected="true"] {
 }
 
 /* ---- KUNCI SIDEBAR (STATIS) ---- */
+/* ---- SIDEBAR STYLE ---- */
+/* ---- SIDEBAR STYLE ---- */
 [data-testid="stSidebar"] {
     background: #ffffff !important;
     border-right: 1px solid #e2e8f0 !important;
+}
+
+/* Hilangkan panah tutup (<<) agar tidak bisa diminimize manual */
+[data-testid="stSidebarCollapseButton"] {
+    display: none !important;
 }
 
 /* ---- ML Portfolio Components ---- */
