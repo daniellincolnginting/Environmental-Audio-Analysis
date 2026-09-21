@@ -133,14 +133,20 @@ li[aria-selected="true"] {
 
 /* ---- KUNCI SIDEBAR (STATIS) ---- */
 /* ---- SIDEBAR STYLE ---- */
-/* ---- SIDEBAR STYLE ---- */
 [data-testid="stSidebar"] {
     background: #ffffff !important;
     border-right: 1px solid #e2e8f0 !important;
+    min-width: 270px !important;
+    max-width: 270px !important;
 }
 
 /* Hilangkan panah tutup (<<) agar tidak bisa diminimize manual */
 [data-testid="stSidebarCollapseButton"] {
+    display: none !important;
+}
+
+/* Hilangkan garis tepi yang bisa ditarik/digeser oleh kursor */
+[data-testid="stSidebarResizer"] {
     display: none !important;
 }
 
