@@ -266,7 +266,7 @@ with st.sidebar:
     
     st.markdown("""
     <div class="author-footer">
-        <span style="color: #64748b;">Designed by:</span><br>
+        <span style="color: #64748b;"> Streamlit Designed by:</span><br>
         <div class="author-name">Daniel Lincoln Ginting</div>
     </div>
     """, unsafe_allow_html=True)
