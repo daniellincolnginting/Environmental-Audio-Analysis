@@ -9,7 +9,7 @@ Proyek ini mengonversi masalah pemrosesan sinyal audio menjadi masalah *Computer
 
 Model ini dilatih secara khusus menggunakan dataset ESC-50 untuk mengklasifikasikan 50 jenis suara lingkungan dunia nyata ke dalam 5 dimensi utama (Suara Alam, Manusia, Hewan, Eksterior/Urban, dan Interior/Domestik).
 
-🔗 **[Klik di sini untuk mencoba Live App/Demo]** *(-> Masukkan link Streamlit Cloud kamu nanti di sini)*
+🔗 **[https://esc50-audioclassification.streamlit.app/]** *(-> Klik di sini untuk mencoba Live App/Demo)*
 
 ## 📊 Model Performance
 * **Model Architecture:** ResNet50 (Pre-trained)
