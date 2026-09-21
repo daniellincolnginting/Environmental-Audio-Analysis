@@ -132,29 +132,9 @@ li[aria-selected="true"] {
 }
 
 /* ---- KUNCI SIDEBAR (STATIS) ---- */
-/* 1. Hilangkan tombol panah/silang penutup agar TIDAK BISA diminimize manual */
-[data-testid="stSidebarCollapseButton"] {
-    display: none !important;
-}
-
-/* 2. Paksa tombol pembuka muncul jika tertutup otomatis (misal saat dibuka di HP) */
-[data-testid="collapsedControl"] {
-    display: block !important;
-    visibility: visible !important;
-    z-index: 999999 !important;
-}
-
-/* 3. Kunci lebar sidebar dan berikan warna latar */
 [data-testid="stSidebar"] {
-    min-width: 270px !important;
-    max-width: 270px !important;
     background: #ffffff !important;
     border-right: 1px solid #e2e8f0 !important;
-}
-
-/* 4. Hilangkan garis yang bisa digeser-geser oleh kursor */
-[data-testid="stSidebarResizer"] { 
-    display: none !important; 
 }
 
 /* ---- ML Portfolio Components ---- */
